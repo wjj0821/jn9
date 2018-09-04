@@ -1,0 +1,1 @@
+var a=10,b=20;function fn(){return a+b}fn();

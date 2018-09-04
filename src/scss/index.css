@@ -1,0 +1,109 @@
+body,
+html,
+.wrap {
+  width: 100%;
+  height: 100%;
+  background: #88D8FF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.wrap {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap .zh {
+  margin-top: 100px;
+  width: 80%;
+  margin-left: 10%;
+  height: 40px;
+  border: none;
+  background: #fff;
+}
+
+.wrap .mm {
+  width: 80%;
+  margin-left: 10%;
+  height: 40px;
+  border: none;
+  background: #fff;
+  margin-top: 20px;
+}
+
+.wrap .ar {
+  margin-top: 20px;
+  margin-left: 10%;
+  width: 80%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrap .btn {
+  border: 0;
+  list-style: none;
+  margin-top: 20px;
+  margin-left: 10%;
+  height: 40px;
+  width: 80%;
+  color: #fff;
+  background: #51ADFD;
+}
+
+.wrap h5 {
+  font-weight: normal;
+  width: 100%;
+  text-align: center;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.wrap h5 span {
+  color: #51ADFD;
+}
+
+.wrap .button {
+  margin-top: 100px;
+}
+
+.wrap .button p {
+  text-align: center;
+}
+
+.wrap .button .tb {
+  margin-top: 15px;
+  width: 50%;
+  margin-left: 25%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.wrap .button .tb .iconfont {
+  font-size: 30px;
+}
+
+.wrap .button .tb .icon-29 {
+  color: #51ADFD;
+}
+
+.wrap .button .tb .icon-25 {
+  color: aquamarine;
+}
+
+.wrap .zz {
+  position: absolute;
+  font-size: 14px;
+  bottom: 2px;
+  width: 100%;
+  text-align: center;
+}
+
+.wrap .zz span {
+  color: #51ADFD;
+}
